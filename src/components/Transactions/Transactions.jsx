@@ -5,7 +5,7 @@ const TransactionHistory = ({transactions}) => {
     return (
       <table className={css.transactionHistory}>
         <thead>
-          <tr style={{backgroundColor: getColor()}}>
+          <tr>
             <th className={css['col-1']}>Type</th>
             <th className={css['col-2']}>Amount</th>
             <th className={css['col-3']}>Currency</th>

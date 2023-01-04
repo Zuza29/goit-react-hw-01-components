@@ -17,7 +17,6 @@ import transactions from 'data/transactions.json'
 export const App = () => {
   return (
     <div className="App">
-      <h2 className="heading">Profile</h2>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -25,7 +24,6 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <h2 className="heading">Statistics</h2>
       <Statistics
         title="Upload stats" stats={data} />
       <FriendList

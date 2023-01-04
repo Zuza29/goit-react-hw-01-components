@@ -1,0 +1,38 @@
+.item {
+    margin: 30px;
+display: grid;
+grid-template-columns: 20% 40% 40%;
+align-items: center;
+width: 60%;
+
+}
+
+.name {
+  font-size: 1.5rem;
+      justify-self: center;
+
+}
+
+.offline, .online {
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+  border-radius: 50%;
+      justify-self: center;
+
+}
+.offline {
+      background-color: red;
+}
+.online {
+  background-color: green;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    padding: 15px;
+    background-color: #fff;
+        justify-self: center;
+
+}
