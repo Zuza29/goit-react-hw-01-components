@@ -1,5 +1,4 @@
 import css from './Transactions.module.css';
-import { getColor } from 'components/getColor';
 
 const TransactionHistory = ({transactions}) => {
     return (
