@@ -1,8 +1,5 @@
 import css from './Statistics.module.css';
-
-const getColor = () =>
-  '#' + Math.floor(Math.random() * 16777215).toString(16);
-
+import { getColor } from 'components/getColor';
 
 const Statistics = ({ title = null, stats }) => {
   return (
