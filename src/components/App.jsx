@@ -8,11 +8,11 @@ import data from 'data/data.json';
 
 // Import FriendList Component & its data
 import FriendList from './FriendList/List/FriendList';
-import friends from 'data/friends.json'
+import friends from 'data/friends.json';
 
 // Import Transactions Component & its data
 import TransactionHistory from './Transactions/Transactions';
-import transactions from 'data/transactions.json'
+import transactions from 'data/transactions.json';
 
 export const App = () => {
   return (
@@ -24,13 +24,11 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistics
-        title="Upload stats" stats={data} />
-      <FriendList
-      friends={friends}
-      />
-      <TransactionHistory
-      transactions={transactions} />
+      <Statistics title="Upload stats" stats={data} />
+      <FriendList friends={friends} />
+      <TransactionHistory transactions={transactions} />
     </div>
   );
 };
+
+
