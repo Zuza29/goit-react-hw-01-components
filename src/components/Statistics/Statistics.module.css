@@ -1,6 +1,4 @@
 .list {
-    width: 30%;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     line-height: 20px;
@@ -32,3 +30,4 @@ h2 {
     padding-bottom: 35px;
     font-size: 1.5rem;
 }
+

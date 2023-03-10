@@ -1,6 +1,4 @@
 .profile {
-  width: 30%;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   font-weight: 400;
@@ -11,7 +9,7 @@
   border-radius: 10%;
   box-shadow: 8px 8px 9px -5px #c9cace;
   padding: 30px;
-  background-color: #FFFFE6;
+  background-color: #ffffe6;
 }
 
 .name {
@@ -27,26 +25,35 @@
 }
 
 .stats {
-  display: grid;
+  display: flex;
   margin: 0 auto;
-  grid-template-columns: 1fr 1fr 1fr;
   padding: 20px 10px;
   font-size: 1.3rem;
 }
-
 
 .stats li {
   display: flex;
   flex-direction: column;
   border-right: 1px solid lightgrey;
-padding: 0 20px;
+  padding: 0 20px;
 }
 
 .stats li:last-child {
   border: none;
-
 }
 
 .label {
   font-weight: 600;
 }
+
+@media screen and (max-width: 1200px) {
+  .stats {
+    flex-direction: column;
+  }
+
+  .stats li {
+    border-bottom: 1px solid lightgrey;
+    border-right: none;
+  }
+}
+

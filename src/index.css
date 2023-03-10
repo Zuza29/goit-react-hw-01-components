@@ -1,8 +1,27 @@
-@import-normalize; 
+@import-normalize;
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 .App {
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .App {
+    width: 90%;
+  }
+  .friendList {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 body {
@@ -12,8 +31,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-    line-height: 1.5;
-    font-family: 'PT Sans', sans-serif;
+  line-height: 1.5;
+  font-family: 'PT Sans', sans-serif;
 }
 
 code {

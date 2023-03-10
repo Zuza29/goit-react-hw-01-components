@@ -1,8 +1,8 @@
 .list {
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
-  margin: 50px auto;
-  width: 30%;
   border: 1px solid lightgrey;
   border-radius: 10%;
   box-shadow: 8px 8px 9px -5px #c9cace;
